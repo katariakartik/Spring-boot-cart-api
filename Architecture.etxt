@@ -1,0 +1,20 @@
+Project Architecture
+Tech Stack
+Backend: Spring Boot, Spring Security, Spring Data JPA
+Database: MySQL (or H2 for simplicity)
+Build Tool: Maven
+Testing: Postman
+Modules and Layers
+Controller Layer:
+Handles incoming HTTP requests and sends responses.
+Service Layer:
+Business logic.
+Repository Layer:
+Database interactions using Spring Data JPA.
+Database Schema
+Tables:
+users: Stores user details.
+products: Stores product catalog.
+carts: Stores user-specific cart data.
+orders: Stores order details.
+order_items: Stores order item details.
